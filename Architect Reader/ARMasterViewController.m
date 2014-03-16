@@ -34,6 +34,8 @@
     [super viewDidLoad];
 
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.navigationItem.title = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"Main Title"];
 
     feeds = [[NSMutableArray alloc] init];
     
