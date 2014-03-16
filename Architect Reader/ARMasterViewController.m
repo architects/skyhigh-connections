@@ -37,8 +37,7 @@
 
     feeds = [[NSMutableArray alloc] init];
     
-    // TODO get string from .plist
-    NSURL *url = [NSURL URLWithString:@"http://feeds.feedburner.com/ICanHasCheezburger"];
+    NSURL *url = [NSURL URLWithString:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"RSS URL"]];
     parser = [[NSXMLParser alloc] initWithContentsOfURL:url];
 
     [parser setDelegate:self];
