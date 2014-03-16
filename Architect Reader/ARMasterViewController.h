@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ARMasterViewController : UITableViewController
+@interface ARMasterViewController : UITableViewController <NSXMLParserDelegate>
+
+@property (strong, nonatomic) IBOutlet UITableView *feedTable;
 
 @end
