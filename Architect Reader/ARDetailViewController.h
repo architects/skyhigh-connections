@@ -11,6 +11,7 @@
 @interface ARDetailViewController : UIViewController
 
 @property (copy, nonatomic) NSString *url;
+@property (copy, nonatomic) NSString *title;
 @property (strong, nonatomic) IBOutlet UIWebView *articleView;
 
 @end

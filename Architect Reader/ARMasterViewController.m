@@ -86,8 +86,11 @@
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         
-        NSString *string = [feeds[indexPath.row] objectForKey:@"link"];
-        [[segue destinationViewController] setUrl:string];
+        NSString *url = [feeds[indexPath.row] objectForKey:@"link"];
+        [[segue destinationViewController] setUrl:url];
+
+        NSString *heading = [feeds[indexPath.row] objectForKey:@"title"];
+        [[segue destinationViewController] setTitle:heading];
     }
 }
 
