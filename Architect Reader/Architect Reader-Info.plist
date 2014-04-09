@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Main Title</key>
-	<string>My Own RSS Reader</string>
+	<string>Skyhigh Connections</string>
 	<key>RSS URL</key>
-	<string>http://feeds.feedburner.com/ICanHasCheezburger</string>
+	<string>http://www.barrington220.org/site/RSS.aspx?DomainID=84&amp;ModuleInstanceID=4191&amp;PageID=316</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
